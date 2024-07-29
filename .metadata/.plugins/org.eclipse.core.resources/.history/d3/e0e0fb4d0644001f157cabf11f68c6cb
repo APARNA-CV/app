@@ -1,0 +1,45 @@
+package firstprojectpackage;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+
+
+@Test
+public class Testngfiletwo {
+	
+	 @BeforeTest
+	  public void launchbrowser() {
+	  }
+	 
+	 
+	 @BeforeMethod
+	 public void verifyhomepagetitle() {
+		 
+	 }
+	 
+	 
+  @Test(priority = 0)
+  public void Register() {
+  }
+ 
+
+  
+  @Test(priority = 1)
+  public void Support() {
+	  
+  }
+  
+  @AfterMethod
+  public void gobacktohomepage() {
+	  
+  }
+  
+  
+  @AfterTest
+  public void Terminatebrowser() {
+  }
+
+}
